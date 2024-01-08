@@ -1,0 +1,33 @@
+/*banner style*/
+.banner-title{
+    padding: 177px 530px 0px  530px;
+    color: #f109de;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+line-height: normal;
+}
+.banner-heading{
+    margin-top: -10px;
+    padding: 0px 344px 177px 344px;
+    max-width:632px;
+    color: #f109de;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900px;
+line-height: 95px; /* 131.944% */
+} 
+.banner{
+    background: #FFF;
+    background-image: url('../resources/Banner\ Image.png');
+    width: 1320px;
+height: 600px;
+margin: 50px 50px 140px 140px;
+    }
+.bnner-design{
+    justify-content: center;
+    gap:0px;
+}
+    
