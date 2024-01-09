@@ -68,19 +68,24 @@ margin-top: 10px;
 .discount1{
     background: #FFF;
     text-align: center;
+    padding-bottom: 5px;
 }
 .welcome-title{
-    text-align: center;
+    padding: 125px 550px 300px 125px;
+    width: 642px;
     color: #FFF;
-font-family: Merriweather;
-font-size: 64px;
-font-weight: 900;
-line-height: 88px; /* 137.5% */
-letter-spacing: 7.04px;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    padding-left: 500px;
+    margin:auto
 }
 .welcome-description{
     text-align: center;
-    color: rgba(255, 255, 255, 0.80);
+    color: rgba(0, 199, 0, 0.8);
 font-family: Inter;
 font-size: 18px;
 
@@ -89,24 +94,80 @@ line-height: 30px; /* 166.667% */
 }
 .welcome-button{
     color: #F00;
-
 font-family: Inter;
 font-size: 20px;
 font-weight: 700;
 text-transform: uppercase;
 }
 .welcome-section{
-    
     background-image: url('../resources/Vectorrr.png');
-
     background-repeat: no-repeat;
     width:1320px;
     height: 600px;
-   
-}
-.welcome-section{
     align-items: center;
     justify-content: center;
     margin:auto;
-    /*padding: 0;*/
+  padding-bottom: 5px;
+  display: flex;
+ 
 }
+   
+  
+
+ section .welcome-section-class{
+   padding-bottom: 0;
+   border-bottom: 0;
+   background-image: url('../resources/Vectorrr.png');
+
+   }
+ 
+   .time-zone{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+text-align: center;
+padding-top: 100px;
+margin-top: 120px;
+margin-left:500px;
+/*background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);*/
+background-color: aqua;
+width: 1320px;
+height: 482px;
+align-items: center;
+
+
+   }
+   .time-zone-button{
+    display: inline-flex;
+margin: 64px 608px 126px 609px;
+color: white;
+background-color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+display: inline-flex;
+padding: 16px 25px;
+justify-content: center;
+gap: 10px;
+width: 200px;
+height: 10px;
+border: none;
+border-radius: 8px;
+align-items: center;
+
+
+
+   }
+   .time-description{
+    padding: 100px 386px 214px 385;
+    padding-top: 100px;
+    width: 549px;
+    height: 168px;
+   }
