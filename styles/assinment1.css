@@ -302,5 +302,35 @@ padding-top: 80px;
     width: 150px;
 height: 150px;
 }
+.blew-heading{
+    color: #070211;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+
+font-weight: 900;
+
+text-transform: capitalize;
+}
+.below-description{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; /* 160% */
+width: 896px;
+padding-left: 120px;
+}
+.em{
+    width: 648px;
+height: 72px;
+}
+.snubs-bt{
+    width: 120px;
+    height: 72px;
+    color: white;
+    background-color: #F00;
+}
    
    
